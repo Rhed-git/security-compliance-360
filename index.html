@@ -1,0 +1,46 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Security Compliance 360</title>
+  <meta name="description" content="Live cybersecurity & compliance dashboard" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Security‑Compliance‑360</h1>
+    <div class="header-actions">
+      <input id="searchInput" placeholder="Search (e.g., FedRAMP, ISO 27001, PCI DSS)" />
+      <button id="refreshBtn" title="Refresh feeds">⟳ Refresh</button>
+      <button id="themeToggle" title="Toggle dark mode">☾</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="grid">
+      <article class="card">
+        <h2>Threat Advisories</h2>
+        <ul id="advisoriesList" class="item-list"></ul>
+      </article>
+
+      <article class="card">
+        <h2>Compliance Updates</h2>
+        <ul id="complianceList" class="item-list"></ul>
+      </article>
+
+      <article class="card">
+        <h2>News & Analysis</h2>
+        <ul id="newsList" class="item-list"></ul>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>v0.1 — HTML/CSS/JS only. Next: Cloudflare Worker for feeds.</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

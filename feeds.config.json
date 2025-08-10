@@ -1,0 +1,38 @@
+{
+  "advisories": [
+    {
+      "name": "CISA Advisories",
+      "type": "rss",
+      "url": "https://www.cisa.gov/feeds/advisories.xml"
+    },
+    {
+      "name": "CISA KEV",
+      "type": "json",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
+    }
+  ],
+  "compliance": [
+    {
+      "name": "PCI SSC Blog",
+      "type": "rss",
+      "url": "https://blog.pcisecuritystandards.org/rss.xml"
+    },
+    {
+      "name": "HITRUST Updates",
+      "type": "rss",
+      "url": "https://hitrustalliance.net/news/feed/"
+    }
+  ],
+  "news": [
+    {
+      "name": "SecurityWeek",
+      "type": "rss",
+      "url": "https://www.securityweek.com/feed/"
+    },
+    {
+      "name": "BleepingComputer",
+      "type": "rss",
+      "url": "https://www.bleepingcomputer.com/feed/"
+    }
+  ]
+}
